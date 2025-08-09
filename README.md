@@ -48,6 +48,7 @@ For Hardware:
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
 *Add caption explaining connections*
+<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/c8407cf4-eace-4b13-90d1-ffe326619664" />
 
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
