@@ -54,11 +54,16 @@ For Hardware:
 # Build Photos
 components
 ![WhatsApp Image 2025-08-09 at 06 34 04_ab6327f2](https://github.com/user-attachments/assets/42b59c09-0dff-4f85-9c84-b13e38ec84ce)
+
 ![WhatsApp Image 2025-08-09 at 06 40 08_15d85ccc](https://github.com/user-attachments/assets/3e794950-d174-4efb-88e8-7c9f10137a76)
+
 ![WhatsApp Image 2025-08-09 at 06 40 10_dce24e97](https://github.com/user-attachments/assets/08096c43-fa9e-4622-b8e2-a26f27dc0cd1)
+
 ![WhatsApp Image 2025-08-09 at 06 40 10_af0129ef](https://github.com/user-attachments/assets/eddc1c94-91cc-4068-b085-8e482919dedc)
+
 ![WhatsApp Image 2025-08-09 at 06 40 11_30c0c46a](https://github.com/user-attachments/assets/a21168ef-aeeb-45a0-bb98-27c576008560)
-![Uploading WhatsApp Image 2025-08-09 at 06.41.13_c978325a.jpg…]()
+
+![WhatsApp Image 2025-08-09 at 06 41 13_781bbb31](https://github.com/user-attachments/assets/d9302b38-21f4-49eb-9a20-95810339d8bb)
 
 
 STEPS OF PROJECT
@@ -140,7 +145,7 @@ https://drive.google.com/file/d/1uahKLDbdLc94K9cteL4oYeB1gAohPYw5/view?usp=drive
 Snoring ruins sleep—for you and your partner. But what if your pillow could gently nudge you to stop? Today, we’ll build an Arduino-powered anti-snoring pillow that detects snoring and vibrates to help you
 
 # Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/file/d/1M4geye88NxB5rOOnY2HsMI9-1DzSlR8A/view?usp=drivesdk
 
 ## Team Contributions
 - ALAN BABU N: HAEDWARE CONTRIBUTION
