@@ -60,16 +60,72 @@ components
 ![WhatsApp Image 2025-08-09 at 06 40 11_30c0c46a](https://github.com/user-attachments/assets/a21168ef-aeeb-45a0-bb98-27c576008560)
 ![Uploading WhatsApp Image 2025-08-09 at 06.41.13_c978325a.jpg…]()
 
+STEPS OF PROJECT
+Step 1: Gather Components
+Step 2: Circuit Connections
+        Sound Sensor (KY-038):   
+        VCC → Arduino 5V
+        GND → Arduino GND
+        OUT → Arduino A0 (Analog Input)
+        Relay/Transistor Setup:
+        Relay IN → Arduino D9 (or Transistor Base via 1kΩ resistor)
+        Relay VCC → Arduino 5V
+        Relay GND → Arduino GND
+        Vibration Motor:
+        Motor (+) → Relay NO (Normally Open)
+        Motor (-) → GND
+        Power:
+        Connect 9V Battery to Arduino Vin (or use USB).
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+Step 3: Upload Arduino Code
+// Pin connections
+const int soundSensorPin = 2;  // Digital output from sound sensor
+const int relayPin = 8;        // Relay module input pin (Active LOW)
 
-![Final](Add photo of final product here)
-*Explain the final build*
+unsigned long relayOnTime = 0; // To store the time when relay turned ON
+bool relayState = false;       // Current state of relay
 
+void setup() {
+  pinMode(soundSensorPin, INPUT);
+  pinMode(relayPin, OUTPUT);
+  digitalWrite(relayPin, HIGH); // Relay OFF initially (Active LOW)
+  Serial.begin(9600);           // Start serial monitor
+}
+
+void loop() {
+  int soundDetected = digitalRead(soundSensorPin);
+  Serial.println(soundDetected); // Show sound detection value in Serial Monitor
+
+  // If sound is detected and relay is currently OFF
+  if (soundDetected == HIGH && !relayState) {
+    relayState = true;
+    relayOnTime = millis();         // Store the time relay turned ON
+    digitalWrite(relayPin, LOW);    // Turn relay ON (Active LOW)
+  }
+
+  // If relay is ON, check if 15 seconds have passed
+  if (relayState && (millis() - relayOnTime >= 15000)) {
+    relayState = false;
+    digitalWrite(relayPin, HIGH);   // Turn relay OFF (Active LOW)
+  }
+}
+Step 4: Test & Calibrate
+Step 5: Assemble in Pillow
+Embed Components:
+Place sound sensor near the pillow’s edge (to detect snoring).
+Secure motor inside the pillow (near the sleeper’s head).
+Hide Arduino + battery in a small fabric pouch attached to the pillow.
+
+Safety Check:
+Ensure no loose wires or sharp edges.
+
+Step 6: Power & Use
+Plug in the battery/USB.
+Place the pillow on the bed; it will vibrate only when snoring is detected.
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://drive.google.com/file/d/1uahKLDbdLc94K9cteL4oYeB1gAohPYw5/view?usp=drivesdk
+
 *Explain what the video demonstrates*
 
 # Additional Demos
