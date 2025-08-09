@@ -61,8 +61,10 @@ components
 ![Uploading WhatsApp Image 2025-08-09 at 06.41.13_c978325a.jpg…]()
 
 STEPS OF PROJECT
-Step 1: Gather Components
-Step 2: Circuit Connections
+Step 1:   Gather Components
+
+
+Step 2:   Circuit Connections
         Sound Sensor (KY-038):   
         VCC → Arduino 5V
         GND → Arduino GND
@@ -76,6 +78,7 @@ Step 2: Circuit Connections
         Motor (-) → GND
         Power:
         Connect 9V Battery to Arduino Vin (or use USB).
+
 
 Step 3: Upload Arduino Code
 // Pin connections
@@ -110,7 +113,11 @@ void loop() {
   }
 }
 Step 4: Test & Calibrate
+
+
 Step 5: Assemble in Pillow
+
+
 Embed Components:
 Place sound sensor near the pillow’s edge (to detect snoring).
 Secure motor inside the pillow (near the sleeper’s head).
@@ -122,6 +129,9 @@ Ensure no loose wires or sharp edges.
 Step 6: Power & Use
 Plug in the battery/USB.
 Place the pillow on the bed; it will vibrate only when snoring is detected.
+
+
+
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1uahKLDbdLc94K9cteL4oYeB1gAohPYw5/view?usp=drivesdk
