@@ -52,27 +52,32 @@ For Hardware:
 
 
 # Build Photos
-components
+components:
+
 ![WhatsApp Image 2025-08-09 at 06 34 04_ab6327f2](https://github.com/user-attachments/assets/42b59c09-0dff-4f85-9c84-b13e38ec84ce)
 
 ![WhatsApp Image 2025-08-09 at 06 40 08_15d85ccc](https://github.com/user-attachments/assets/3e794950-d174-4efb-88e8-7c9f10137a76)
+BATTERY
 
 ![WhatsApp Image 2025-08-09 at 06 40 10_dce24e97](https://github.com/user-attachments/assets/08096c43-fa9e-4622-b8e2-a26f27dc0cd1)
+ARDUNIO
 
 ![WhatsApp Image 2025-08-09 at 06 40 10_af0129ef](https://github.com/user-attachments/assets/eddc1c94-91cc-4068-b085-8e482919dedc)
+RELAY
 
 ![WhatsApp Image 2025-08-09 at 06 40 11_30c0c46a](https://github.com/user-attachments/assets/a21168ef-aeeb-45a0-bb98-27c576008560)
+KY-038(SOUND SENSOR)
 
 ![WhatsApp Image 2025-08-09 at 06 41 13_781bbb31](https://github.com/user-attachments/assets/d9302b38-21f4-49eb-9a20-95810339d8bb)
-
+VIBRATION MOTOR
 
 STEPS OF PROJECT
 Step 1:   Gather Components
 
 
 Step 2:   Circuit Connections
-        Sound Sensor (KY-038):   
-        VCC → Arduino 5V
+        Sound Sensor (KY-038): 
+        VCC → Arduino 5
         GND → Arduino GND
         OUT → Arduino A0 (Analog Input)
         Relay/Transistor Setup:
