@@ -141,11 +141,10 @@ Place the pillow on the bed; it will vibrate only when snoring is detected.
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1uahKLDbdLc94K9cteL4oYeB1gAohPYw5/view?usp=drivesdk
-
-Snoring ruins sleep—for you and your partner. But what if your pillow could gently nudge you to stop? Today, we’ll build an Arduino-powered anti-snoring pillow that detects snoring and vibrates to help you
+when a person started to snore,senor detected the sound and started to vibrate the motor and vibrate the pillow also ,it will distrub the person.
 
 # Additional Demos
-https://drive.google.com/file/d/1M4geye88NxB5rOOnY2HsMI9-1DzSlR8A/view?usp=drivesdk
+https://drive.google.com/file/d/1aLTp3UzKxqAxy3hbSDI7QnL5tkrrc-d_/view?usp=drivesdk
 
 ## Team Contributions
 - ALAN BABU N: HAEDWARE CONTRIBUTION
