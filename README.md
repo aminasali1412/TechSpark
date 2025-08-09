@@ -4,7 +4,7 @@
 # BuzzBed Buddy – "A smart pillow that listens."
 
 
-## Basic Details
+
 ### Team Name: TechSpark
 
 
