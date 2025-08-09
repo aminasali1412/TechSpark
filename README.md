@@ -1,7 +1,7 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# BuzzBed Buddy – "A smart pillow that listens."🎯
+# BuzzBed Buddy – "A smart pillow that listens."
 
 
 ## Basic Details
@@ -46,16 +46,20 @@ For Hardware:
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/c8407cf4-eace-4b13-90d1-ffe326619664" />
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/c8407cf4-eace-4b13-90d1-ffe326619664" />
+"Arduino Anti-Snoring Pillow Circuit: Sound Sensor Triggers Vibration Motor"
+
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+components
+![WhatsApp Image 2025-08-09 at 06 34 04_ab6327f2](https://github.com/user-attachments/assets/42b59c09-0dff-4f85-9c84-b13e38ec84ce)
+![WhatsApp Image 2025-08-09 at 06 40 08_15d85ccc](https://github.com/user-attachments/assets/3e794950-d174-4efb-88e8-7c9f10137a76)
+![WhatsApp Image 2025-08-09 at 06 40 10_dce24e97](https://github.com/user-attachments/assets/08096c43-fa9e-4622-b8e2-a26f27dc0cd1)
+![WhatsApp Image 2025-08-09 at 06 40 10_af0129ef](https://github.com/user-attachments/assets/eddc1c94-91cc-4068-b085-8e482919dedc)
+![WhatsApp Image 2025-08-09 at 06 40 11_30c0c46a](https://github.com/user-attachments/assets/a21168ef-aeeb-45a0-bb98-27c576008560)
+![Uploading WhatsApp Image 2025-08-09 at 06.41.13_c978325a.jpg…]()
+
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
